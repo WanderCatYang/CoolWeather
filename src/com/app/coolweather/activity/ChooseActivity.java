@@ -84,7 +84,7 @@ public class ChooseActivity extends Activity {
 			}
 			adapter.notifyDataSetChanged();
 			listView.setSelection(0);
-			titleText.setText("÷–π˙");
+			titleText.setText("‰∏≠ÂõΩ");
 			currentLevel = LEVEL_PROVINCE;
 		} else {
 			queryFromServer(null, "province");
@@ -174,7 +174,7 @@ public class ChooseActivity extends Activity {
 					public void run() {
 						// TODO Auto-generated method stub
 						closeProgressDialog();
-						Toast.makeText(ChooseActivity.this, "º”‘ÿ ß∞‹", Toast.LENGTH_LONG).show();
+						Toast.makeText(ChooseActivity.this, "Âä†ËΩΩÂ§±Ë¥•ÔºÅ", Toast.LENGTH_LONG).show();
 					}
 
 				});
@@ -185,7 +185,7 @@ public class ChooseActivity extends Activity {
 	private void showProgressDialog() {
 		if (mProgressDialog == null) {
 			mProgressDialog = new ProgressDialog(this);
-			mProgressDialog.setMessage("’˝‘⁄º”‘ÿ...");
+			mProgressDialog.setMessage("Ê≠£Âú®Âä†ËΩΩ");
 			mProgressDialog.setCanceledOnTouchOutside(false);
 		}
 		mProgressDialog.show();
